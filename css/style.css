@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+padding: 0;
+}
+            /* header section starts here */
+            /* navbar begins */
+header{
+   
+    background-color: #1115e5;
+}
+
+nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    color: rgb(237, 227, 227);
+    width:93%;
+    align-items: end;
+    padding-top: 10px;
+}
+nav,a{
+    margin: 0px 35px 0px 40px;
+    font-size: 20px;
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.header-text{
+    
+    padding: 150px;
+    font-size: larger;
+    color: white;
+}
+.header-image{
+    position: absolute;
+    left : 953px;
+    top: 100px;
+
+}
+
+/* header section ends here */
+
+.companies ,a{
+   
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+/* api section stars here */
+
+.api-heading{
+    margin:50px 0px 0px 50px;
+}
+
+.cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-active{
+    padding: 20px;
+    background-color: #e7dbdb;
+    border-radius: 10px;
+}
+.card{
+    padding: 20px;
+    border-radius: 2px;
+}
+.card-head-active{
+    margin-top: 15px;
+    color: #1115e5;
+}
+.card-head{
+    margin-top: 15px;
+}
+.card-body{
+    margin-top: 5px;
+}
+
+
+/* api categori section ens here */
+
+/* <!-- Blog section --> */
+
+.blog-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.blog-card{
+    display: flex;
+    width: 450px;
+    height: 200px;
+    flex-wrap: wrap;
+}

@@ -84,17 +84,173 @@ nav,a{
 /* api categori section ens here */
 
 /* <!-- Blog section --> */
+  
 
 .blog-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:100px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 200px;
+margin-left: 50px;
 }
 
-.blog-card{
+.blog-card
+{
+    border-radius: 50px 10px 10px;
+    box-shadow: 5px 10px 30px black;
+    /* padding: 30px; */
+    padding: 0px 40px 0px 0px;
+    margin-left: 60px;
+}
+
+.blog-heading{
+    margin-top: 30px ;
+    margin-left: 30px;
+}
+.blog-image{
+    display: inline;
+}
+
+.blog-content{
+    display:inline-block;
+    position: absolute;
+    /* bottom: 110px ;
+    left: 40px; */
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+.blog-bottom{
+    display: inline;
+    /* position: absolute; */
+    position: relative;
+    margin-left: 30px;
+ top: 15px;
+ 
+}
+
+.blog-author{
+    display: inline;
+    margin-left: 5px;
+    position: relative;
+    bottom: 5px;
+
+}
+
+/* <!-- FAQ SECTION --> */
+.faq-section{
     display: flex;
-    width: 450px;
-    height: 200px;
-    flex-wrap: wrap;
+    margin-top: 70px;
+  background-color: #b2b4d8;
+  justify-content: space-between;
+  height: 324px;
+  
+}
+
+.faq-content{
+    margin: 40px 0px 0px 60px;
+
+}
+.faq-content h2:first-child{
+    font-size: 40px;
+    font-weight: 900;
+}
+.faq-content h4:nth-child(2){
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.faq-content h4:nth-child(3){
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.faq-content button{
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #1115e5;
+    padding: 4px 9px;
+    color: #b2b4d8;
+    font-weight: 400;
+}
+
+
+/* <!-- Download --> */
+
+.download-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.download-content{
+    margin-left: 100px;
+
+}
+
+.download-content span{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+.download-email{
+    background-color: #b2b4d8;
+    width: 700px;
+    border-radius: 50px;
+}
+.download-email button{
+    margin-left: 268px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 50px;
+    background-color: #1115e5;
+    color: aliceblue;
+
+}
+.download-email input{
+    border: none;
+    background-color: #b2b4d8;
+    color: #111010;
+    margin-left: 33px;
+    font-size: 20px;
+}
+/* <!-- Download end here --> */
+
+.footer-section{
+    margin-top: 85px;
+    background-color: #2e12e1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.list{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.footer-right{
+
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.footer-right img{
+    margin-right: 8px;
+}
+.logos-list{
+    display: flex;
+    list-style-type: none;
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: #ffffff;
+    margin-bottom: 60px;
 }

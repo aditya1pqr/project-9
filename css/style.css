@@ -21,6 +21,12 @@ nav{
 nav,a{
     margin: 0px 35px 0px 40px;
     font-size: 20px;
+    color: #ffffff;
+}
+
+.nav-item{
+    margin-top: 5px;
+    color: #ffffff;
 }
 
 .logo{
@@ -39,14 +45,46 @@ nav,a{
     top: 100px;
 
 }
+.header-text p{
+    margin-top: 8px;
+}
+.nav-item-active{
+    color: #ffffff;
+  
+}
 
+@media only screen and (max-width: 1025px){
+    header{
+       width: 100%;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-item-active{
+        color: #ffffff;
+        margin-top: 30px;
+    }
+    .header-image {
+            
+            display: none;
+}
+}
 /* header section ends here */
-
+.companies{
+    margin-left: 2px;
+}
 .companies ,a{
-   
+ 
+    margin-top: 10px;
     color: black;
     font-weight: 900;
     text-decoration: none;
+}
+@media only screen and (max-width: 1000px){
+    .companies a:nth-child(3){
+        margin-right: 1px;
+        /* display: none; */
+    }
 }
 
 /* api section stars here */
@@ -58,15 +96,16 @@ nav,a{
 .cards{
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .card-active{
-    padding: 20px;
-    background-color: #e7dbdb;
+    padding: 40px 20px;
+    box-shadow: 5px 10px 30px black;
     border-radius: 10px;
 }
 .card{
-    padding: 20px;
+    padding: 40px 20px;
     border-radius: 2px;
 }
 .card-head-active{
@@ -91,7 +130,7 @@ nav,a{
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 200px;
-margin-left: 50px;
+    margin-left: 50px;
 }
 
 .blog-card
@@ -137,10 +176,18 @@ margin-left: 50px;
     bottom: 5px;
 
 }
+@media only screen and (max-width: 1000px){
+    .blog-cards{
+        margin-top:90px 0px;
+        margin-left: 0px;
+        
+    }
+}
 
 /* <!-- FAQ SECTION --> */
 .faq-section{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 70px;
   background-color: #b2b4d8;
   justify-content: space-between;
@@ -176,7 +223,38 @@ margin-left: 50px;
     font-weight: 400;
 }
 
-
+@media only screen and (max-width: 1025px) {
+    
+    .download-section{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+        height: 200px;
+    }
+    form{
+        width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    form button{
+        margin-top: 20px;
+    }
+    .footer-right{
+        margin-left: 50px;
+    }
+    .logos-list{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 1132px){
+    .faq-image{
+        display: none;
+    }
+}
 /* <!-- Download --> */
 
 .download-section{
@@ -220,6 +298,8 @@ margin-left: 50px;
     margin-top: 85px;
     background-color: #2e12e1;
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     justify-content: space-between;
 }
 
